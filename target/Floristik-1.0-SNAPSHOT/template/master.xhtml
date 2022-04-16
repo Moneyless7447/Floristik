@@ -15,10 +15,15 @@
 
         <div>
             <div id="topLeft" class="topLeft">
-                <ui:insert name="topLeft">TopLeft</ui:insert>
+                <ui:insert name="topLeft">
+                    <ui:include src="bannerLeft.xhtml"/>
+                </ui:insert>
+               
             </div>
             <div id="top" class="top">
-                <ui:insert name="top">Top</ui:insert>
+                <ui:insert name="top">
+                    <ui:include src="banner.xhtml"/>
+                </ui:insert>
             </div>
             <div id="topRight" class="topRight">
                 <ui:insert name="topRight">TopRight</ui:insert>
@@ -33,7 +38,7 @@
                 </ui:insert>
             </div>
             <div id="content" class="left_content">
-                <ui:insert name="content">Content</ui:insert>
+                <ui:insert name="content">content</ui:insert>
             </div>
         </div>
         
