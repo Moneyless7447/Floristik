@@ -4,22 +4,8 @@
     background-color: #036fab;
     color: white;
     padding: 5px;
-    margin: 0px 170px 10px 170px;
-    
-}
-
-#topLeft {
-    float: left;
-    background-color: #ece3a5;
-    padding: 5px;
-    width: 150px;
-}
-
-#topRight {
-    float: right;
-    background-color: #ece3a5;
-    padding: 5px;
-    width: 150px;
+    margin: 0px 0px 10px 0px;
+    display:    flex;
 }
 
 #bottom {
@@ -41,6 +27,15 @@
     background-color: #ece3a5;
     padding: 5px;
     width: 150px;
+}
+#topLeft{
+    flex-basis: 20%;
+}
+#topCenter{
+    flex-basis: 60%;
+}
+#topRight{
+    flex-basis: 20%;
 }
 
 .center_content {
